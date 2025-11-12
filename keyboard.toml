@@ -4,13 +4,13 @@ name = "RMK Keyboard"
 product_name = "RMK Keyboard"
 vendor_id = 0x4c4b
 product_id = 0x4643
-manufacturer = "haobo"
-chip = "rp2040"
+manufacturer = "hnnh"
+chip = "nrf52833"
 
 [matrix]
 # Input and output pins are mandatory
-input_pins = ["PIN_6", "PIN_7", "PIN_8", "PIN_9"]
-output_pins = ["PIN_19", "PIN_20", "PIN_21"]
+row_pins = ["P1_09", "P0_15", "P0_17", "P1_07"]
+col_pins = ["P0_03", "P0_30", "P0_29"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
